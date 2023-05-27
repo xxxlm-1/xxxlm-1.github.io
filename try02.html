@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Highlight</title>
+    <link rel="icon" href="./images/001.ico" >
+
+
+    <link rel="stylesheet" href="styles/daohan.css">
+    <link rel="stylesheet" href="styles/txt.css">
+    <link rel="stylesheet" href="styles/index01.css">
+    <link rel="stylesheet" href="styles/index02.css">
+
+    <script src="scripts/index02.js" defer></script>
+    <script src="scripts/index01.js" defer></script>
+</head>
+
+
+<body>
+    
+    <header id="da标题">
+        <h1 title=" Highlight">
+            <strong > Highlight</strong>
+        </h1>
+    </header>
+    <audio id="audio-player">
+        <source src="images/铃芽之旅.mp3" type="audio/mpeg">
+    </audio>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" title="点击关闭">&times;</a>
+        <a href="try01.html" title="点击跳转">Home</a>
+        <a href="#" title="点击回到页首">Highlight</a>
+        <a onclick="click_About()" title="点击查看">About us</a>
+
+    </div>    
+
+    <section class="上导航栏">
+        <nav>
+            <ul class="nav-menu">
+              
+                <li id="first">
+                    <div id="target-element" onclick="playAudio()" title="点击可以播放（或取消）音乐">铃芽之旅(すずめの戸締まり)</div>
+                </li>
+                <li><a href="#"><img src="images/退出.png" alt="退出" 
+                    height="20px" width="20px" id="登录图标" title="退出" onclick="confirmLeave()"></a></li>
+               <!-- <li><audio loop muted controls id="mp3主题曲" title="主题曲">
+                        <source src="images/铃芽之旅.mp3" type="audio/mpeg"></source>
+                        </audio>
+                </li>-->
+                <li><a href="#Box-02-3" title="点击跳转到第二个图片集">two</a></li>
+                <li><a href="#Box-02-2" title="点击跳转到第一个图片集">one</a></li>
+                <li><a href="#Box-txt-03" title="点击跳转">REMARK</a></li>
+                <li><a href="#Box-txt-02" title="点击跳转">票房</a></li>
+                <li><a href="#Box-txt-01" title="点击跳转">咒语</a></li>
+
+                <li><a href="#">回到顶部</a></li>
+
+                <li  onclick="openNav()" id="导航" title="点击打开导航">&#9776; 导航</li>
+            </ul>
+        </nav>
+        
+    </section>
+    <div class="Lbox" id="Box-02-1">
+        <div class="image-container" id="视频2">
+            <video   id="背景视频"
+                    autoplay loop muted
+                poster="">
+             <!-- <source src="images/denglu.webm" type="video/webm">-->  
+                <source src="images/2.mp4" type="video/mp4">
+
+        </div>
+    </div>
+    <div class="Lbox" id="Box-txt-01">
+        <div class="card" id="Box-txt-01-01">
+            
+            
+            <header>《铃芽户缔》关门咒语原版：</header>
+            <p>かけまくもかしこき、日不见（ひみず）の神よ。</p>
+            <p>
+                远（とお）つ御祖（みおや）の产土（うぶすな）よ。
+            </p>
+            <p>
+                久しく拝领つかまつったこの山河（やまかわ）、かしこみかしこみ、谨んでお返し申す。
+            </p>     
+        </div>
+        <div class="card" id="Box-txt-01-02">
+            
+            
+            <header>
+                《铃芽户缔》关门咒语中文译文：
+            </header>
+            <p>
+                啊，伟大的鼹鼠之神，世代守护这里的土地之神，我对做出祈祷这种事情表示万分的歉意。
+            </p>
+            <p>
+                啊，这些存在了很久的山河，不胜惶恐，不胜惶恐。
+            </p>
+            <p>
+                我必将此事谨记于心，以后一定会来还愿。
+            </p>
+        </div> 
+    
+    </div>
+    <div class="Lbox" id="Box-02-2">
+        <!--大臣图片切换器-->
+        <div class="card" id="dachen-jpg"> 
+            <div class="image-container-dachen" >
+                <img src="images/大臣13.jpg"  alt="Image 1" class="active" title="点击切换图片">
+                <img  src="images/大臣06.jpg" alt="Image 2"  title="点击切换图片">
+                <img src="images/大臣15.jpg" alt="Image 3"  title="点击切换图片">
+                <img src="images/大臣14.jpg"  alt="Image 4"  title="点击切换图片">
+                <img src="images/大臣10.jpg" alt="Image 8"  title="点击切换图片">
+                <img src="images/大臣13.jpg"  alt="Image 1" title="点击切换图片">
+                <img src="images/大臣12.jpg" alt="Image 6"  title="点击切换图片">
+                <img src="images/大臣07.jpg"  alt="Image 7"  title="点击切换图片">
+          </div>
+          <div class="content">
+              <header>꒰ঌ( ⌯' '⌯)໒꒱</header>
+              <p class="details" title="大臣">
+                    ダイジン
+                </p>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="image-container">
+                <img src="images/合照.jpg" alt="Image 1"  class="active" title="点击切换图片">
+                
+                <img src="images/女主.jpg" alt="Image 9" title="点击切换图片">
+                <img src="images/风景09.jpg" alt="Image 2"  title="点击切换图片">
+                <img src="images/风景18.jpg" alt="Image 3"  title="点击切换图片">
+                <img src="images/女主 (3).jpg" alt="Image 4" title="点击切换图片">
+                <img src="images/风景19.jpg" alt="Image 5"  title="点击切换图片">
+          
+                <img src="images/合照 (3).jpg" alt="Image 6"  title="点击切换图片">
+            </div>
+            
+            <div class="content">
+                <header>꒰ঌ( ⌯' '⌯)໒꒱</header>
+                <p class="details" title="好看的呢！！">
+                    とてもきれいです
+                </p>
+            </div>
+        </div>                  
+    </div>
+    
+    <div class="Lbox" id="Box-txt-02">
+        <div class="txtbox">
+            <header>票房情况</header>
+            <p>该片的公映截止至2023年5月27日，影片官方于5月12日至27日举行名为“最后的锁门上映”（最後の戸締まり上映）的特别上映  ，将上映影片更换为计划收录在BD/DVD里的重制了273处画面的特别版  。</p>
+            <p>影片公映三天的累计观影人次和累计票房收入分别是导演前作《你的名字。》的138.7%和147.4%，《天气之子》的114.9%和114.7%，创导演新海诚作品开画新纪录  。</p>
+            <p>上映24天，该片升至日本2022年度票房榜第四名  ，影史票房第87名 。上映第七周，影片累计票房突破百亿日元大关，这也是新海诚第三部破百亿日元的作品，
+                使他成为继宫崎骏后日本影史第二人（连续三部作品票房破百亿日元）。截至2023年1月9日，该片的累计票房达到121.3亿日元  ，成为日本影史票房第27名，同时也是动画电影影史票房第10名，将吉卜力工作室的《起风了》从前10名中挤下 。
+                截至2023年2月5日，该片的累计观影人次突破1000万，这也是新海诚连续第三部达成该成绩的作品 。截至2023年2月26日，该片的累计票房超过《咒术回战 0》，成为日本影史票房第15名，动画电影影史票房第9名 。
+                截至2023年3月26日，该片的累计票房收入为143亿1060万2380日元，超过了新海诚前作《天气之子》142.3亿日元的最终票房，成为日本影史票房第14名，动画电影影史票房第8名  。截至2023年4月26日，该片累计票房达145.2亿日元（约合1.08亿美元）。</p>
+            <p>截至2023年3月17日，该片的日本海外总观影人次突破200万，并且首映当天均是当国家/地区的票房第一。</p>
+        </div>
+        <div class="txtbox">
+            <header>票房情况(中方情况)</header>
+            <p>
+                2023年3月16日，该片开启预售，并且24小时累计预售票房突破1172万元  ；3月19日，该片预售总票房（含点映）突破3000万元 ；截至3月21日23:32:38，该片点映及预售总票房破7000万元  ；
+                3月23日17时45分，该片预售总票房突破1亿元，成为近3年来第18部预售总票房破亿的影片 。
+            </p>
+            
+            <p>
+                3月24日，该片首映日票房达8391万元，成为日本电影首映日票房冠军  ；截至3月25日13时57分，该片票房突破2亿元 ；截至3月26日11时43分，该片票房突破3亿元 [135] ，该片上映首周末取得3.4亿元票房，累计观影人次超1000万  ；3月27日，“IMAX中国”宣布该片首周末票房报收人民币2830万，大幅刷新IMAX在中国市场上映的日本动画电影首周末纪录  ；
+                截至3月30日19时6分，该片票房突破4亿元，升至2023年度票房榜第七名 ；截至4月1日18时18分，该片总票房破5亿元  ；截至4月4日10:53，该片累计票房突破5.75亿元，超越2016年上映的《你的名字。》总票房，成为中国影史日本动画电影票房第一  ；4月8日，该片观影人次达2069万，超《你的名字。》的2068万，累计票房6.89亿元  ；
+                截至4月9日13时21分，影片上映17天，累计票房突破7亿元  ；截至4月17日11时，该片累计票房超7.52亿元，超越日本本土票房成绩 ；截至4月30日21时，该片的4月总票房为3.525377亿元，排名第二，票房占比12.3%，排片占比14.1%，上座率5.0%  ；截至5月3日19时31分，该片票房突破8亿元  ，五一假期期间（4月29日—5月3日），该片共获2356万元票房 。
+            </p>
+            <p>
+                数据均来源于：百度百科-铃芽之旅
+            </p>
+            <p>
+                
+            </p>
+        </div>
+    </div>
+    
+    <div class="Lbox" id="Box-02-3">
+        <div class="card" id="横9-16-jpg">
+            <div class="image-container-9-16">
+                <img src="images/风景17.jpg" alt="Image 1"  class="active" title="点击切换图片" >
+                <img src="images/风景05.jpg" alt="Image 8" title="点击切换图片">
+                <img src="images/环阿姨.jpg" alt="Image 7" title="点击切换图片" >
+                <img src="images/女主 (4).jpg" alt="" title="点击切换图片">
+                <img src="images/风景16.jpg" alt="Image 9" title="点击切换图片">
+                <img src="images/风景17.jpg" alt="Image 1"   title="点击切换图片" >
+       
+                <img src="images/风景15.jpg" alt="Image 3" title="点击切换图片" >
+                <img src="images/风景14.jpg" alt="Image 4" title="点击切换图片" >
+                <img src="images/风景10.jpg" alt="Image 5" title="点击切换图片" >
+                <img src="images/风景06.jpg" alt="Image 6" title="点击切换图片" >
+            </div>
+        </div>
+
+    </div>
+
+    <div class="Lbox" id="Box-txt-03" >
+        <div class="card" id="Box-txt-03-01">
+            <header>REMARK</header>
+            <p>
+                动画:门背后的璀璨星空，紫色的晚霞，一切都显得是那么的有质感，里面所有的场景都很真实，雨滴、都市，好像自己就置身于其中。
+                “每一帧都是壁纸”音画满分，配乐很优秀，动画效果极其棒，确实让人赏心悦目。
+            </p>
+            <p>
+                叙事:想象丰富瑰丽，有厄蚓、门户、往界、会说话的猫、三条腿的凳子、还有跨时空对话，元素非常丰富，想象奇幻瑰丽。
+            </p>
+            <p>
+                主题：影片在隐隐之中提到日本3.11大地震，铃芽的妈妈也是在这场灾难中去世了，新海诚用最温柔的方式提醒我们自然的威力也让我们永不忘记这一场人类共同的灾难。
+            </p>
+            <p>
+                感情:故事中描绘最好的是故乡情结和亲情，而在描写在少年情结和爱情时，显得比较牵强。不过，男主草太和铃芽那种互相扶持共同患难的爱，姨妈为了铃芽放弃自己人生的勇气，铃芽和妈妈之间爱的纽带，很难不让人动容。 
+            </p>
+            <hr/>
+            <br>
+            <header>专家点评-正面</header>
+            <p>
+                作为“灾难三部曲”的完结篇，《铃芽之旅》画面精美、故事用心、情感真挚，表现出创作团队足够的诚意，同时也展现出影片导演兼编剧新海诚从事动画制作二十多年来，从作品相对小众到备受瞩目，成长为当代日本代表性动画电影导演的坚持与改变 。（澎湃新闻 评）
+            </p>
+            <p>
+                《铃芽之旅》之所以能产生如此强大的感召力，得益于其内涵丰富的情感诗学。相较于几部前作，新海诚《铃芽之旅》的情感叙事更加多元，所提供的情感共鸣也更为充沛。影片本身没有止步于对浓烈情感的单向抒发，而是在展现情感力量的同时，
+                引导观众主动进行情感召唤与重建，以主动性的情感生成对抗遗忘与灾难造成的创痛。正是将艺术叙事与现实世界的对接，使得影片与观众有了深层次的生命共振 。（南宁师范大学新闻与传播学院副教授 杜晓杰 评）
+            </p>
+            <p>
+                作为一部动画电影，《铃芽之旅》和《你的名字。》类似，将玄幻故事对接到现实生活之中，呈现了一部脑洞大开的超现实主义作品。同时在影片深层的内核中，自我与社会的关系成为了一条隐性主线，有着对灾难、亲情、生命等多方面的思考，
+                具有强烈的现实主义色彩。由于《铃芽之旅》更多呈现了人与社会的关系，所以配乐相比《你的名字。》和《天气之子》更磅礴，情感的宣泄更透彻。配乐的节奏与剧情结合得恰到好处也让影片的段落衔接更连贯、更有层次，再加上既能抓住眼球，
+                又能准确表达内容和传递信息的精美视觉效果，共同保证了影片的质量。《铃芽之旅》在叙事、配乐、剧情设计上都达到了很高的标准，虽然在影片的感情线上有两极分化的口碑，不过瑕不掩瑜，整体还是一部高质量的影片  。（人民网 评）
+            </p>
+            <hr>
+            <br>
+            <header>
+                专家点评-中立
+            </header>
+            <p>
+                从动画制作来说，《铃芽之旅》代表了顶级的电影工业水平，观众沉浸式地跟着女主角铃芽的脚步，以更为细腻的女性视角一窥日本各地美景，同时展现旅途中的磨难与温暖。虽以“灾害”为主题，但《铃芽之旅》整体的基调轻松、明朗。
+                但尽管有许多轻松明快的元素，这部作品依然透露出新海诚在过往电影中那种挥之不去的淡淡的“物哀之感”，尤其是对于灾难后废墟的刻画。某种程度上，这部电影依旧没有跳脱此前的“世界系”叙事框架，同时也难逃关于“逻辑薄弱”的诟病   。（《每日经济新闻》评）
+            </p>
+            <hr>
+            <br>
+            <header>
+                专家点评-负面
+            </header>
+            <p>
+                尽管这部电影确实隐喻了成长与损失，但它没有阐明其世界的规则，这有损于叙事。这部电影与新海诚的上一部作品《天气之子》一样，无法认定它是一个彻头彻尾的关于气候变化的寓言故事，还是只是一个引用真实气候灾难的虚构故事。
+                虽然《铃芽之旅》受了2011年东日本大地震和海啸的启发，但它并没有完全地将奇幻故事与现实的环境灾难（或是人类对自然界的无法避免的可怕行为的责任）相统一，这一切对电影的情节和解决方案来说也意义不明。不明确的角色心理
+                动机和模糊的魔法逻辑引发的问题多于给出的答案  。（《纽约时报》评）
+            </p>
+
+            <p>
+                怎么写比写什么更重要，相较于正面触碰“3.11”，更重要的是如何书写灾难与苦难。相较于扩展女性角色的篇幅，更重要的是如何塑造女性角色。总的来说，《铃芽之旅》更多的只能算是姿态好看。影片没有展现关于过往伤口如何操控女主的更多细节，
+                这些“独特性”都欠缺更详尽的展示，让我们无从得知，这趟奇幻的抗震之旅究竟撬动了女主内心的哪块硬痂，以至于女主的内心治愈在片尾只能通过说教来完成。《铃芽之旅》中，过往要么以无需质疑的传统出现（男主的职业），
+                要么以被美化的日常出现（废墟之声），要么以未来为诱饵而被轻易略过（女主对自己的安慰），叩访历史（遗迹）其实未被好好完成。虽然影片将故事写得像是一个公主拯救王子的故事，但并不表示这就是站在女性立场的故事。
+                在这个青蛙王子的故事变体中，铃芽不断被新海诚的恶趣味所摆布，一会儿是向木椅献出自己的初吻，一会儿穿着短裙坐在木椅上  。（《北京青年报》评）
+            </p>
+        </div>
+    </div>
+    <footer>
+        <div class="页脚"> 
+            
+            <p onclick="click_footer()" title="点一下试试看">
+            制作小组：期末全都对 </p>
+            
+           <p onclick="click_footer02()" title="点一下试试看">组员：林雅钦 彭瑞怡 杨慧莹 王林茜 汪洋 汪雨婷 </p>
+           
+        </div>
+       
+       </footer>
+</body>
+</html>

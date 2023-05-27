@@ -1,0 +1,37 @@
+/**************大盒子*********************/
+.Lbox{
+    box-shadow: 10px 20px 20px rgba(245, 241, 241, 0.137);
+    border-radius: 20px;
+    border: 2px solid #35749f5e;
+    background-color: #fff;
+    padding: 30px;
+    
+    width: 90%;
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    opacity: 0.94;
+    
+    
+}
+
+ul#j-图片盒 {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+
+/*************中盒子********************/
+.Mbox{
+    margin: auto;
+}
+
+
+
+.sbox
+{   
+    border: solid rgb(30, 29, 28);
+    display:block;
+    margin: auto;
+}

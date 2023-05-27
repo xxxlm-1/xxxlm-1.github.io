@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>すずめの戸締まり</title>
+    <link rel="icon" href="./images/001.ico" >
+
+    <link rel="stylesheet" href="styles/index01.css">
+    <link rel="stylesheet" href="styles/back1.css">
+    <link rel="stylesheet" href="styles/box.css">
+    <link rel="stylesheet" href="styles/img.css">
+    <link rel="stylesheet" href="styles/txt.css">
+    <link rel="stylesheet" href="styles/daohan.css">
+
+    <script src="scripts/index01.js"defer></script>
+</head>
+
+<body>
+        <audio id="audio-player">
+        <source src="images/铃芽之旅.mp3" type="audio/mpeg">
+    </audio>
+    <header id="标题一">
+        <p title="铃芽之旅" id="标题1">すずめの戸締まり  
+        </p>
+    </header>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" title="点击关闭">&times;</a>
+        <a href="#" title="点击回到页首">Home</a>
+        <a href="try02.html" title="点击跳转">Highlight</a>
+        <a onclick="click_About()" title="点击查看">About us</a>
+
+    </div>
+    <section class="上导航栏">
+        <nav>
+            <ul class="nav-menu">
+                <li id="first" >
+                    <div id="target-element" onclick="playAudio()" title="点击可以播放（或取消）音乐">铃芽之旅(すずめの戸締まり)</div>
+                </li>
+                <!--login.html-->
+                <li><a href="#"><img src="images/退出.png" alt="退出" 
+                    height="20px" width="20px" id="登录图标" title="退出登录" onclick="confirmLeave()"></a></li>
+                <li>
+                    <a href="#情节介绍" class="dropbtn" title="点击调转">情节介绍</a>
+                </li>
+                <li>
+                    <div class="dropdown"> <a href="#人物介绍" class="dropbtn" title="点击调转">人物介绍</a>
+                        <div class="dropdown-content">
+                             <a href="#女主-详" title="点击调转">岩户铃芽</a> 
+                             <a href="#男主-详" title="点击调转">宗像草太</a> 
+                             <a href="#大臣-详细" title="点击调转">大臣</a>
+                             <a href="#朋友-详" title="点击调转">芹泽朋也</a>
+                            <a href="#姨妈-详" title="点击调转">岩户环</a> 
+                        </div>
+                    </div>
+                </li>
+                <li>   
+                    <div class="dropdown"><a href="#世界设定">世界设定</a>
+                        <div class="dropdown-content">
+                            <a href="#ミミズ">ミミズ</a>
+                            <a href="#要石">要石</a>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#创作背景" title="点击跳转">创作背景</a></li>
+                <li><a href="#作者介绍" title="点击跳转">作者介绍</a></li>
+                <li><a href="#">首页</a></li>
+                <li  onclick="openNav()" id="导航">&#9776; 导航</li>
+            </ul>
+        </nav>
+    </section>
+    <!--------------------------------------------------------------------------------->
+    <div class="Lbox" id="视频1" >
+        <header><p id="小标题"> 主题曲</p><p id="视频介绍" >视频来源于小红书博主:babieboo</p></header>
+     
+                <video   id="Video_web01"
+                        autoplay loop muted controls
+                    poster="images/01视频.jpg" onvolumechange="video_01_muted_try()">
+                 <!-- <source src="images/denglu.webm" type="video/webm">-->  
+                    <source src="images/01视频.mp4" type="video/mp4">
+                </video>
+            
+    </div>  
+    <section class="作者介绍">
+
+        <div class="Lbox">
+            <header id="作者介绍"><p id="小标题">作者介绍</p></header>
+            <div class="imgbox">
+                <img src="images/作者01.jpg" alt="" title="新海诚">
+            </div>
+            <div class="txtbox">
+                <article>
+                   
+                    <span>   <button onclick="click_新海诚()" title="点击查看详情" id="button_新海诚" class="alert_button">新海诚</button></span>
+                    <p>新海诚（Makoto Shinkai），原名新津诚（Makoto Niitsu），1973年2月9日出生于日本长野县南佐久郡小海町，日本动画导演、编剧、漫画作家，
+                        毕业于日本长野县野泽北高等学校、日本中央大学文学部日本文学系。</p>
+                        <p>新海诚一直没有跳出自己的逻辑，他所有的创作元素都是，毫无关联的两个男女主人公，因为一个偶然的超现实事件，为了阻止这个事件，一定会导致结果是男女主人公一定是错开时空的。
+                            难能可贵的是，这个导演始终有赤子之心，新海诚导演的作品很干净，因为他真的相信爱情，他真的相信小男孩小女孩的爱情能够拯救世界，这是他最大的优点。</p>
+                </article>
+                <div class="imgblock">
+                    <img src="images/大臣02.gif" alt="" height="150px" title="大臣">
+                    <img src="images/大臣03.jpg" alt=""height="150px" title="大臣">
+                    <img src="images/大臣05.jpg" alt=""height="150px" title="大臣">
+                </div>
+            </div>
+        </div>
+        </section>
+<!--------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------------------->
+    <section class="创作背景">
+
+    <div class="Lbox">
+      <header id="创作背景"><p id="小标题">创作背景</p></header>
+      <div class="imgbox">
+        <img #id="a" src="images/风景13.jpg" alt=""width=70px title="岩户铃芽">
+      </div>
+      <div class="txtbox"> 
+        <article>
+                <p>
+                    新海诚表示，因为2010年出生的女儿没有东日本大地震的相关记忆，加之自己的主要观众多为少年族群，那次地震的共同语言正在消失，所以想以电影这样娱乐的形式将东日本大地震表现出来。而且，在过去十年里，自己都是以世界被改写的强烈记忆为基础从《你的名字。》制作到《铃芽之旅》，两部前作中也有隐喻东日本大地震的地方。
+                </p>
+                <p>
+                    新海诚在上一部作品《天气之子》的舞台问候中走遍日本各地，回老家时发现人口越来越少，空房越来越多，已经不是以前热闹的地方了。当有新建筑物建成的时候，老家会做地镇祭这样的仪式，但是，相反，在城镇和土地都“结束”的时候，没有葬礼这样的仪式，因此新海诚想做一个“悼念地方的故事”。
+                </p>
+                
+            </article>
+    </div> 
+    </div>
+    </section>
+<!--------------------------------------------------------------------------------->
+    <section class="世界设定">
+    <div class="Lbox">
+      <header id="世界设定"><p id="小标题">世界设定</p></header>
+        <article>
+            <span id="ミミズ">ミミズ</span>
+            <p>《铃芽户缔》的世界分为常世和现世，常世是死去的人们居住的世界，
+                现世是活着的人们所在的世界，在常世里有一个趋近于反派的实体—ミミズ，
+                其在日文里是蚯蚓之意，在常世里是构成常世的关键实体，在现世里显示为红色的浊流。
+                
+                常世与现世的连接通道是各式各样的特殊的门，门存在于废墟之中，废墟是门存在的必要条件，
+                且同一片废墟当中不会出现两个以上的门。当门被打开时，ミミズ就会从常世中脱出，来到现世。
+                但是ミミズ在现世中不被一般人所视，只有曾经开过门的人或者经历过进入常世的人们才能看到ミミズ及消灭它的全过程。
+            </p>
+            <hr/>
+            <span id="要石">要石</span>
+
+            <p>在现世之中，有着两颗叫做“要石”的物体，其负责镇压每一扇门，不让ミミズ从常世里逃逸。
+                要石里面居住着灵魂，通过自我意识将灵魂深处的门打开，就可以替代要石里面的灵魂成为新的要石，
+                而要石则是遏制或杀死ミミズ的利器，只要将要石刺入ミミズ，就可以将ミミズ从门外驱赶回常世。
+                除此之外，驱赶ミミズ的方法就只有关门。
+                要石缺一不可，要有两个要石才能保证门不被打开。
+            </p>
+        </article>
+    </div>
+    </section>
+<!--------------------------------------------------------------------------------->
+
+    <section class="人物介绍">
+        
+        <div class="Lbox">
+          <header id="人物介绍"><p id="小标题">人物介绍</p></header>
+          <hr/>
+          <span id="女主"><a href="#女主-详" title="点击跳转">岩户铃芽</a></span>
+          <span id="男主"><a href="#男主-详" title="点击跳转">宗像草太</a></span>
+          <span id="大臣"><a href="#大臣-详细" title="点击跳转">大臣（ダイジン）</a></span>
+          
+          <span id="朋友"> <a href="#朋友-详" title="点击跳转">芹泽朋也</a></span>
+          <span id="姨妈"><a href="#姨妈-详" title="点击跳转">岩户环</a></span>
+        </div>
+        </section>
+ <!--------------------------------------------------------------------------------->
+       
+        <div class="Lbox">
+            <header id="人物介绍（详）"><p id="小标题">人物介绍（详）</p></header>
+          <article>
+              <div class="Mbox">
+                  <div class="imgbox">
+                      <img src="images/女主 (2).jpg" alt="" title="岩户铃芽">
+                    </div>
+                    <div class="txtbox">
+                        <span id="女主-详"><button onclick="click_铃芽()" title="点击查看详情" id="button_铃芽" class="alert_button">岩户铃芽-女主（现役女高中生）</button></span>
+                        
+                        <p>
+                            岩户铃芽是日本九州的17岁女高中生，和姨妈环两个人一起生活在九州的一个安静的小镇上。经常会梦见在广阔的废墟中，年幼的自己在草原上徘徊。
+                        </p>           
+                        <p>
+                            在偶然的一天，铃芽在上学路上遇见为了寻找“门”而处于旅途的长发男青年，追随着青年的脚步，来到了山上的一片废墟之地，这里静静伫立着一扇古老的门，仿佛是坍塌中存留的遗迹。铃芽仿佛被什么不知名力量吸引了一般，推开了那扇门，从此开启了她的冒险之旅，人生轨迹也随之变化。
+                        </p>
+                        <p>
+                            配音：原菜乃华(日语)、三浦明里(日语/幼年) 
+                        </p>
+                    </div>    
+                </div>
+                <div class="Mbox">
+                    <div class="imgbox">
+                        <img src="images/男主.jpg" alt="" title="宗像草太">
+                        
+                    </div>
+                    <div class="txtbox">
+                        <span id="男主-详">宗像草太-男主</span>
+                        
+                        <p>远离尘世的「闭门师」，为阻止灾害降临踏上寻找门的旅途。</p>
+                           <p> 同为闭门师的祖父宗像羊朗，现于东京的医院中住院。</p>
+                           <p> 草太在前往九州某处遇到了铃芽。</p>
+                        <p>
+                            因某个事件发生后，变成了铃芽的椅子。
+                        </p>
+                        <p>
+                            配音：松村北斗(日语)、马正阳(大陆普通话)、庄汶锜(台湾普通话)
+                        </p>
+                    </div>
+                </div>
+
+                <div class="Mbox">
+                   <div class="imgbox">
+                        <img src="images/大臣15.jpg" title="大臣（ダイジン）"></img>
+                   </div>
+                   <div class="txtbox">
+                       <span id="大臣-详细">大臣（ダイジン）</span>
+                   <p>会说人话的神秘白猫，拥有变化外型的能力。</p>
+                   <p>
+
+                    其真实身份是封印蚓厄的“要石”之一，原本镇守着九州宫崎的“往门”，但由于铃芽打开了门的期间，不慎动到当时化为石像型态的大臣，令其重获行动能力，造成封印被解开，为引领铃芽寻找“往门”的重要角色。
+                    </p>
+                    <p>
+                    相当喜欢岩户铃芽，但认为宗像草太是碍眼的存在，诅咒草太令其灵魂附在三脚小黄椅上。最终牺牲自己恢复“要石”的身份，将土地主人重新封印。
+                   </p>
+                   <p>
+                    配音：山根杏(日语) [114] 、禹思萱(大陆普通话)、苏蕴佳(台湾普通话)
+                   </p>
+                </div>
+                </div>
+
+                <div class="Mbox">
+                    <div class="imgbox">
+                        <img src="images/男主朋友.jpg" alt="" title="芹泽朋也">
+                        
+                    </div>
+                    <div class="txtbox">
+                        <span id="朋友-详">芹泽朋也</span>
+                        <p>
+                            宗像草太的朋友，立志成为教师的立教大学教育学科大学生。言谈举止十分幽默，且很关心朋友，喜欢听昭和时代的歌曲。
+                        </p>
+                        <p>
+                            对草太错过教师测验一事颇有不满，在铃芽和草太旅行期间为两者提供协助。
+                        </p>
+                        <p> 
+                            起先被环误认为是诱拐岩户铃芽的犯人，但在旅途中居间调解铃芽与岩户环的关系，令环对其改观，事后被环称赞是个适合担任教师的人选。
+                        </p>     
+                        <p>
+                                配音：神木隆之介(日语)、藤新(大陆普通话)、苏振威(台湾普通话)
+                            </p>
+                    </div>
+                 </div>
+                 
+                 <div class="Mbox">
+                    <div class="imgbox">
+                        <img src="images/环阿姨 (2).jpg" alt="" title="岩户环">
+                    </div>
+                    <div class="txtbox">
+                         <span id="姨妈-详">岩户环</span>
+                        <p>
+                            铃芽的姨妈，渔协的职员。说话带有宫崎腔，年近40岁仍维持单身，擅长料理。28岁时因为姐姐逝世，开始负责照顾铃芽的生活，但有过度保护和唠叨的倾向。
+                        </p><p>起先因为得知铃芽离家感到担忧，特地请假赶往她所在的地点，不但误认芹泽是诱拐铃芽的可疑人士，还因为要求铃芽赶快回家导致双方发生争执，后来向铃芽透露东日本大地震期间找到她的经过。
+                         </p>  <p>
+
+                           旅途结束后偕同铃芽返回宫崎县，沿途感谢曾经在旅途关照铃芽的人们，还从后者手里收到旅途所经之处的土产。                        </p>    
+                       <p>
+                        配音：深津绘里(日语)、张碧玉(大陆普通话)、曾允凡(台湾普通话)
+                       </p>
+                    </div>
+                 </div>                    
+                              
+                 </div>
+        </article>
+          </section>
+    <section class="情节介绍">
+<!--------------------------------------------------------------------------------->
+    <div class="Lbox">
+    
+        <header id="情节介绍"><p id="小标题">情节介绍</p></header>
+        <div class="imgbox">
+            <img src="images/环阿姨 (3).jpg" alt="photo" title="环阿姨 铃芽 宗像草太" >
+           
+        </div>
+
+        <div class="txtbox">
+            <article>
+                <p>铃芽本来是在宫崎一个小村里面生活着的女高中生，她经常做与常世相关的梦，但她并没有意识到这是常世，
+                    直至她遇到身为闭己师的男主草太，跟他经过一系列的冒险，才逐渐了解了事情的真相。
+                </p>
+                <p>
+                    男主在途中因为被从要石中逃离的白猫“大臣”诅咒而变成椅子，只能依靠铃芽与他一起关上因为意外打开的门，
+                    在经历一系列惊险后，男主意识到自己只有化作要石，才能够结束这场闹剧，于是男主在东京与ミミズ斗争的过程中自愿化成要石。
+                </p>
+                <p>
+                    女主悲痛万分，经询问男主的爷爷，结识另外一个要石——一只黑色的猫，了解到世界真相后，
+                    她找到在老家附近因为与母亲的羁绊及种种原因而打开过的门，将其再次打开，与两个要石一起拯救男主。
+                    女主愿意自己变作要石，但最终被两个要石拯救。二猫最终回归要石体内，男女主灵魂回归肉体，并将要石刺入ミミズ体内，结束了一切。
+                </p>
+            </article>
+        </div>
+    </div>
+    </section>
+   <!--------------------------------------------------------------------------------->
+     
+   
+<footer>
+    <div class="页脚"> 
+        
+        <p onclick="click_footer2()" title="点一下试试看">
+        制作小组：期末全都对 </p>
+        
+       <p onclick="click_footer12()" title="点一下试试看">组员：林雅钦 彭瑞怡 杨慧莹 王林茜 汪洋 汪雨婷 </p>
+       
+    </div>
+   
+   </footer>
+</body>
+
+</html>

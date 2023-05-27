@@ -1,0 +1,62 @@
+/*img*************************************************/
+iframe{
+    
+    width: 100%;
+    height:500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+#视频2{
+    text-align: center;
+}
+.imgbox {
+    /* <body> 元素是块级元素，意味着它占据了页面的空间并且能够赋予外边距和其他改变间距的值。
+    而图片是内联元素，不具备块级元素的一些功能。所以为了使图像有外边距，我们必须使用 display: block 给予其块级行为。*/
+    width: 45%;
+
+    display: inline-block;
+}
+
+.imgbox img{
+    width: 90%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    margin: 22px 10px;
+    float: left;
+    display: block;
+ 
+    overflow-clip-margin: content-box;
+    opacity: 80%;
+}
+
+
+.imgbox img:hover{
+    transform: scale(1.01);
+    opacity:100%;
+  filter:alpha(opacity=100); /* IE8 及其更早版本 */
+}
+
+.人物介绍 .Lbox .imgbox img{
+
+    width: 20%;
+}
+/* 横行 */
+.imgblock{
+    text-align: center;
+    margin: 0 30px;
+    padding: auto;
+}
+
+.imgblock img{
+    border: solid 0.1px #35759f9f;
+    box-shadow: 0.5px 5px 5px #35759f9f;
+    border-radius: 15px;
+    padding: 0 0;
+
+}
+.imgblock img:hover{
+    transform: scale(1.01);
+    transform: scaleY(1.01);
+    transform: scaleZ(1.01);
+}

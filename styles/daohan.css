@@ -1,0 +1,99 @@
+
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:  #2875a2de;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    display: block;
+    float: left;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #4595be;;
+    display: block;
+    transition: 0.3s;
+  }
+    .sidenav a {
+      width: 85%;
+      border: solid white 2px;
+      background-color: whitesmoke;
+      margin: auto;
+      margin-top: 5px;
+      line-break: loose;
+    }
+   
+  .sidenav a:hover, .offcanvas a:focus{
+    color: #4f88a0;
+  }
+  
+  .sidenav .closebtn {
+
+    top: 50px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  .sidenav .closebtn {
+    margin: auto;
+    background-color: #09090900;
+  }
+  .sidenav .closebtn:hover{
+    border: solid white 2px;
+    background-color: whitesmoke;
+  }
+
+  @media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+  }
+
+
+  /* 下拉导航栏 */
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   }
+li a {
+    color: white;
+    padding: 3px 7px;    
+    display: inline-block;
+    text-decoration: none;
+}
+li>a:hover:not(a.active),
+.dropbtn:hover {
+    background-color: #555;
+}
+.dropdown-content {
+  border-radius: 5px;
+    display: none;
+    position: absolute;
+    /* 默认相对于<html>进行绝对定位 */
+    background-color: #f9f9f9;
+    min-width:125px;
+    box-shadow: 0 8px 16px 0 rgba(224, 223, 223, 0.2);
+}
+.dropdown-content a {
+  color: #93d2fa;
+    display: block;
+    /* 因为<a>标签不是块元素，min-width:100px不会生效 */
+}
+.dropdown-content a:hover {
+    background-color: #35749f5e;
+    color: deepskyblue;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}

@@ -1,0 +1,203 @@
+body{
+   background-image: url(../images/2背景.jpg);
+    background-repeat: repeat-y;
+    
+}
+@font-face {
+  font-family: "点字浅夏体";
+  src: url(../fonts/7259.ttf);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1{
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  font-size: 150px;
+  font-family: "华文行楷";
+  text-align: center;
+  margin-top: 5%;
+  
+  
+  color: rgba(131, 170, 242, 0.88);
+  opacity:0.7;
+}
+ body{
+   
+    
+    background-color: rgb(227 227 227 / 70%);
+
+   
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+}
+/*////以下为照片盒子///////////////////////////////////////////////////////*/
+header#da标题{
+  width: 100%;
+  opacity:0.8;
+}
+  .image-container ,
+  .image-container-dachen,
+  .image-container-9-16
+  {
+    position: relative;
+  }
+  .image-container img ,
+  .image-container-dachen img,
+  .image-container-9-16 img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .image-container img.active ,
+  .image-container-dachen img.active,
+  .image-container-9-16 img.active{
+    display: block;
+    opacity: 1;
+  }
+  .card{
+    width: 340px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 10px 10px   #4596c9;
+    display: inline-block;
+    margin: auto;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+  }
+  .image-container img,
+  .image-container-dachen img,
+  .image-container-9-16 img{
+    width: 100%;
+    display: block;
+    height: inherit;
+  }
+  .image-container,
+  .image-container-dachen,
+  .image-container-9-16
+  {
+    padding: auto;
+    height: 580px;
+  }
+  
+.card#9-16-jpg{
+  width: 95%;
+
+}
+.card#dachen-jpg {
+  width:580px;
+}
+.card#dachen-jpg .image-container-dachen img{
+  width:580px;
+  height: 580px;
+  width: 100%;
+}
+.card#dachen-jpg .image-container-dachen{
+  width: 580px;
+  height: 580px;
+}
+
+.card#横9-16-jpg{
+  width:880px;
+}
+.card#横9-16-jpg .image-container-9-16 img{
+  width:880px;
+  height: 550px;
+ 
+}
+.card#横9-16-jpg .image-container-9-16{
+  width: 880px;
+  height: 550px;
+}
+/* 统一设置文本格式 */
+.content header{
+
+  align-content: center;
+  margin:  0 0 1rem;
+  font-size: 3rem;
+  line-height: 1.5rem;
+  font-family: "点字浅夏体";
+  font-size: 30px;
+}
+.content{
+  padding: 2rem 1.8rem;
+  align-content: center;
+}
+/*////以上为照片盒子///////////////////////////////////////////////////////*/
+
+#视频2 video{
+padding-right: 0;
+padding-left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* 大盒子 */
+
+.Lbox{
+  box-shadow: 10px 20px 20px rgba(245, 241, 241, 0.137);
+  border-radius: 20px;
+  border: 2px solid #35749f5e;
+  background-color: #fff;
+  padding: 20px;
+  
+  display: flex;
+  width: 83%;
+  position: relative;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding-top:50px ;
+  padding-bottom:50px ;
+  opacity: 0.97;
+}
+
+.Lbox#Box-02-1{
+  margin-top: 100px;
+  display: flex;
+
+  justify-content: center;
+}
+
+
+#mp3主题曲{
+  max-height: 20px;
+ color: #35749f5e;
+ max-width: 400px;
+}
+
+.Lbox#Box-txt-01{
+  padding-top: 6%;
+  font-size: 33px;
+}
+#Box-txt-01-01,
+#Box-txt-01-02{
+  width: 48%;
+  font-family: "楷体";
+  font-size: 33.5px;
+}
+#Box-txt-01-01 p
+{
+  font-size: 34px;
+  font-family: "楷体";
+}
+#Box-txt-01-02 p{
+  font-size: 33.7px;
+}
+#Box-txt-01 .card{
+  padding-top: 15px;
+}

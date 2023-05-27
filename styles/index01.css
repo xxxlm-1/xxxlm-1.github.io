@@ -1,0 +1,227 @@
+/* 字体引入 */
+@font-face {
+    font-family: "点字浅夏体";
+    src: url(../fonts/7259.ttf);
+}
+/*******************************************/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(227 227 227 / 70%);
+    
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+
+    justify-content: center;
+}
+ button.alert_button{
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: white;
+    border: none;
+    width:100%;
+    height: 30px; 
+  }
+/***********字体***********************/
+p{
+    margin-top: 10px;
+    font-size: medium;
+    text-indent: 1.5em;
+}
+#小标题{
+    
+    text-align: center;
+    font-family: "华文行楷";
+    font-size: 35px;
+}
+/**************上导航栏***********************/
+#daohan{
+    display: inline-flexbox;
+}
+.上导航栏{
+    position:  fixed;
+
+    z-index: 100011111;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 5vw;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.884);
+    box-shadow: 10px 10px 10px rgba(240, 236, 236, 0.5);
+    display: flex;
+
+}
+ul.nav-menu  li{
+    float: right;
+}
+/***********字体***********************/
+#first,a{
+    margin: 0 20px;
+    font-family: Ink Free;
+    color: #cbe7f9;
+    text-decoration: none;
+    border-radius: 10px;
+}
+#first{
+    padding: 10px,10px;
+    font-size: large;
+    font-weight: 600;
+    left: 26px;
+    position: absolute;
+    justify-content: flex-end;
+    font-size: 20px;
+}
+li{
+    text-decoration: none;  /*去掉前面的圆点*/
+}
+ul.nav-menu  li,#daohan{
+    text-decoration: none;  /*去掉前面的圆点*/
+    padding: 5px 10px;
+    box-shadow: 10px 10px 10px rgba(240, 236, 236, 0.5);
+    list-style: none;
+    display: inline;
+    border: 0.1px  dashed  #4596c9;
+    background-color: #35749f5e;
+    border-radius: 5px;
+}
+#daohan{
+    color: #cbe7f9;
+}
+
+/*span*****************************************/
+#小标题:hover{
+    
+    transform-origin: top;
+    box-shadow: 0 0px -8px 0 gainsboro;  
+
+    transform: scale(1.5);
+    transition: all 0.1s; 
+    
+}
+span:hover{
+    border: solid 0.1px #35759f9f;;
+}
+ul.nav-menu li:hover{
+    border: solid 1px #fdfeff9f;;
+}
+#daohan:hover{
+    border: solid 1px #fdfeff9f;;
+    transform: scale(1.1);
+}
+
+hr{
+    color: #97b5c95e;
+}
+span,
+.alert_button{
+    text-align: center;
+    font-size: larger;
+    
+    word-break: break-all;
+    font-weight: bolder;
+    display: block;
+
+}
+/**********************实现文本布局*********************/
+
+#小标题{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+span,
+.alert_button{
+    margin-top: 5px;
+    margin-bottom: 10px;
+  
+}
+P{
+    font-size:22px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+span,
+.alert_button{
+    font-size: 30px;
+    font-family: "楷体";
+}
+p#标题1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    font-size: 120px;
+    font-family: "点字浅夏体";
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    display: block;
+    color: rgb(126, 203, 233);
+    opacity:0.7;
+    padding-right: 10%;
+    padding-left: 0%;
+}
+.人物介绍{
+    font-size: 22px;
+}
+#视频1 video{
+    width: 100%;
+    height: 100%;
+}
+#视频1{
+    text-align: center;
+    margin-top: 30%;
+    opacity: 0.98;
+}
+#视频介绍{
+    float: right;
+}
+#导航,ul li,li a{
+    color: white;
+    font-family: "点字浅夏体";
+}
+p{
+    font-family: "点字浅夏体";
+}
+/************************************* 页脚 */
+footer{
+    background-color: whitesmoke;
+    opacity: 80%;
+    border-radius: 10px;    
+    width: 90%;
+    justify-content: center;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom:10px;
+    padding: auto;
+    padding-bottom: 10px;
+    display: block;
+}
+
+.页脚 p{
+    display: inline-block;
+    margin-top: 2px;
+    line-height: 5px;
+    font-size: 20px;
+    font-family: "点字浅夏体";
+}
+#标题一 h1{
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    font-size: 130px;
+
+}
+
+#登录图标{
+    width: 18px;
+    height: 15px;
+    padding: 0;
+}
