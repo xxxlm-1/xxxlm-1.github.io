@@ -1,0 +1,332 @@
+html {
+    color-scheme: light dark;
+  
+}
+/*背景图片*/
+body {
+  
+  margin: 0;
+  background-color: transparent;
+  justify-content: center;
+}
+video#背景视频{
+  position: fixed; right: 0; bottom: 0;
+  min-width: 100%; min-height: 100%;
+    width: auto; height: auto; z-index: -100;
+    background: url('../images/denglu.png') no-repeat;
+    background-size: cover;
+}
+.上导航栏{
+  position:  fixed;
+  margin: 0 0;
+  z-index: 100011111;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+ float: inline-start;
+  padding: 0 5vw;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.884);
+  box-shadow: 10px 10px 10px rgba(240, 236, 236, 0.5);
+  display: flex;
+
+}
+ul{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+ul li,li a{
+  color: white;
+  font-family: "点字浅夏体";
+  font-weight: 600;
+}
+#first,a{
+
+    font-family: Ink Free;
+    color: #cbe7f9;
+    text-decoration: none;
+    border-radius: 10px;
+}
+#first{
+top: 22%;
+  left: 3.2%;
+  position: absolute;
+
+  font-size: 20px;
+}
+ul.nav-menu  li{
+  text-decoration: none;  /*去掉前面的圆点*/
+  padding: 5px 10px;
+  box-shadow: 10px 10px 10px rgba(240, 236, 236, 0.5);
+  list-style: none;
+  display: inline;
+  border: 0.1px  dashed  #4596c9;
+  background-color: #35749f5e;
+  border-radius: 5px;
+}
+
+/*注册**********************************************************************************************/
+#浮现{
+  background:transparent;
+  color: white;
+}
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #98CCE7;
+   
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.avatar:hover{
+  transform: scale(1.02);
+}
+
+
+/*登录*********************************************************************************************/
+.wrapper {
+    margin: 10% 40% ;
+    width: 1000px;
+    height: 500px;
+}
+
+.loginBox {
+    background-color: #F0F4F6;
+    /*上divcolor*/
+    border: 1px solid #BfD6E1;
+    border-radius: 5px;
+    color: #444;
+    font: 14px 'Microsoft YaHei', '微软雅黑';
+    margin: 0 auto;
+    width: 388px
+}
+
+.loginBox .loginBoxCenter {
+    border-bottom: 1px solid #DDE0E8;
+    padding: 24px;
+}
+
+.loginBox .loginBoxCenter p {
+    margin-bottom: 10px
+}
+
+.loginBox .loginBoxButtons {
+    /*background-color: #F0F4F6;*/
+    /*下divcolor*/
+    border-top: 0px solid #FFF;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    line-height: 28px;
+    overflow: hidden;
+    padding: 20px 24px;
+    vertical-align: center;
+    filter: alpha(Opacity=80);
+    -moz-opacity: 0.5;
+    opacity: 1;
+}
+
+.loginBox .loginInput {
+    border: 1px solid #D2D9dC;
+    border-radius: 2px;
+    color: #444;
+    font: 12px 'Microsoft YaHei', '微软雅黑';
+    padding: 8px 14px;
+    margin-bottom: 8px;
+    width: 310px;
+}
+
+.loginBox .loginInput:FOCUS {
+    border: 1px solid #B7D4EA;
+    box-shadow: 0 0 8px #B7D4EA;
+}
+
+.loginBox .loginBtn {
+    background-image: -moz-linear-gradient(to bottom, blue, #85CFEE);
+    border: 1px solid #98CCE7;
+    border-radius: 20px;
+    box-shadow: inset rgba(255, 255, 255, 0.6) 0 1px 1px, rgba(0, 0, 0, 0.1) 0 1px 1px;
+    color: #444;
+    /*登录*/
+    cursor: pointer;
+    float: right;
+    font: bold 13px Arial;
+    padding: 10px 50px;
+}
+
+.loginBox .loginBtn:HOVER {
+    background-image: -moz-linear-gradient(to top, blue, #85CFEE);
+}
+
+.loginBox a.forgetLink {
+    color: #ABABAB;
+    cursor: pointer;
+    float: right;
+    font: 11px/20px Arial;
+    text-decoration: none;
+    vertical-align: middle;
+    /*忘记密码*/
+}
+
+.loginBox a.forgetLink:HOVER {
+    color: #000000;
+    text-decoration: none;
+    /*忘记密码*/
+}
+
+.loginBox input#remember {
+    vertical-align: middle;
+}
+
+.loginBox label[for="remember"] {
+    font: 11px Arial;
+}
+#注册{
+  background-color:  #98CCE7;
+  display: inline-block;
+  width: -webkit-fill-available;
+  text-align: center;
+}
+
+/**************************************/
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 8px 20px;
+    margin: 0px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    
+    box-shadow: inset rgba(255, 255, 255, 0.6) 0 1px 1px, rgba(0, 0, 0, 0.1) 0 1px 1px;
+    background-color: #98CCE7;
+    border-radius: 20px;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    
+  }
+  button:hover {
+    opacity: 1;
+  }
+  
+  
+  
+  /* Center the image and position the close button */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+  }
+  p{
+    font: 14px 'Microsoft YaHei', '微软雅黑';
+  }
+  img.avatar {
+    width: 50%;
+    border-radius: 50%;
+  }
+  
+  .container {
+    size: 500px;
+    padding: 16px;
+
+  }
+ 
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 0.1; /* Sit on top */
+   
+    top: 110px;
+    width: 70%;
+    overflow: auto; /* Enable scroll if needed */    
+  
+
+    
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    border-radius: 5px;
+    line-height: 28px;
+    background-color: #f0f4f6;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+   
+    border: 1px solid #BfD6E1;
+    width: 35%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button (x) */
+  .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+  }
+
+
